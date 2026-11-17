@@ -1,7 +1,7 @@
 // Service worker do Painel PCDF (gerado por ferramentas/site.py; não edite à mão).
 // Guarda a página no aparelho: abre na hora, mesmo sem internet. Versão nova (este arquivo muda) é baixada em segundo
 // plano e vale a partir da abertura seguinte.
-const VERSAO = '4.14.4-88f737d9b1';
+const VERSAO = '4.15.0-e697070a7d';
 const CACHE = 'painel-pcdf-' + VERSAO;
 const ARQUIVOS = ['./', './index.html', './manifest.webmanifest', './icone-180.png', './icone-192.png', './icone-512.png'];
 self.addEventListener('install', (e) => {
